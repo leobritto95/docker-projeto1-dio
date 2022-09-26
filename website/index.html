@@ -1,0 +1,88 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Painel</h1>
+      <table>
+        <thead>
+          <tr>
+            <td>Atendentes</td>
+            <td>Clientes</td>
+            <td>Clientes + peso</td>
+          </tr>
+        </thead>
+        <tbody>
+          <th id="Col1">Atendente 1</th>
+          <td class="A">0</td>
+          <td class="B">0</td>
+          <tr>
+            <th id="Col2">Atendente 2</th>
+            <td class="A">0</td>
+            <td class="B">0</td>
+          </tr>
+          <tr>
+            <th id="Col3">Atendente 3</th>
+            <td class="A">0</td>
+            <td class="B">0</td>
+          </tr>
+          <tr>
+            <th id="Col4">Atendente 4</th>
+            <td id="A">0</td>
+            <td id="B">0</td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="formulario">
+        <form>
+          <h2>Atendimento</h2>
+
+          <select id="nome_atd" id="atendente">
+            <option value="Atendente 1">Atendente 1</option>
+            <option value="Atendente 2">Atendente 2</option>
+            <option value="Atendente 3">Atendente 3</option>
+            <option value="Atendente 4">Atendente 4</option>
+          </select>
+          <br />
+          <div class="radioBtns">
+            <input
+              type="radio"
+              name="servico"
+              id="revelacao"
+              value="1"
+              checked
+            /><label for="revelacao">Revelação</label>
+            <input
+              type="radio"
+              name="servico"
+              id="Manipulacao"
+              value="2"
+            /><label for="Manipulacao">Manipulação</label>
+            <input type="radio" name="servico" id="Studio" value="3" /><label
+              for="Manipulacao"
+              >Studio</label
+            ><br />
+          </div>
+          <button id="botao">Enviar</button>
+          <!-- input id=botao type=submit -->
+        </form>
+      </div>
+
+      <div id="info"><p>- Informações -</p></div>
+    </main>
+    <script>
+      // não finalizado
+      function verificaServico() {
+        if (document.getElementById("revelacao").checked) {
+          let num = document.getElementById("1A").nodeValue + 3;
+          document.getElementById("1A").innerHTML = num;
+        }
+      }
+
+      document.getElementById("botao").onclick = function (e) {};
+    </script>
+  </body>
+</html>

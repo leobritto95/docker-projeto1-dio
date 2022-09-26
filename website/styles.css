@@ -1,0 +1,89 @@
+
+@font-face {
+  font-family: "Raleway Especial";
+  src: local(Raleway), url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+  font-family: Raleway Especial;
+  font-size: 1.1em;
+}
+
+body{
+  background-color: #F5F6F8;
+}
+
+main {
+  width: 80%;
+  background: #fafa90;
+  margin: 0 auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 8px 12px -3px rgba(0,0,0,0.49); 
+  box-shadow: 7px 8px 12px -3px rgba(0,0,0,0.49);
+  padding: 2% 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  border-bottom: 1px solid;
+  font-size: 300%;
+}
+
+h1 {
+  color: rgb(177, 17, 17);
+}
+
+h2 {
+  color: white;
+  margin: 0;
+}
+
+table{
+  width: 100%;
+}
+
+td {
+  padding: 0 50px;
+  text-align: center;
+}
+
+th {
+  text-align: left;
+  padding-left: 10px;
+}
+
+thead {
+  background-color: #ff8c00;
+  color: white;
+}
+
+#info {
+  color: #ff8c00;
+  text-align: center;
+  border: 1px solid;
+  font-size: 200%;
+  margin: 20px 0;
+}
+
+form {
+  background: #ff8c00;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#nome_atd {
+  margin: 20;
+}
+
+#botao {
+  margin-top: 20;
+  border-radius: 5px;
+}
+
+input[type=radio] {
+  width: 0.8em;
+  height: 0.8em;
+}
